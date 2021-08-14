@@ -1,0 +1,9 @@
+.container-body {
+  display: flex;
+  flex: 4;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.carousel-container {
+}

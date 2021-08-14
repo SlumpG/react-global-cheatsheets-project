@@ -1,0 +1,39 @@
+.header-body {
+  height: 5rem;
+  border-bottom: 0.3px groove rgba(0, 0, 0, 0.205);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-size: 15px;
+  background-color: #0a1d37;
+  color: whitesmoke;
+}
+
+.grid-column-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px groove rgba(212, 206, 206, 0.205);
+}
+
+.label-language {
+  margin-left: 20px;
+}
+
+.select-style {
+  width: 150px;
+}
+
+.grid-column-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-right: 1px groove rgba(212, 206, 206, 0.205);
+}
+.grid-column-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px groove rgba(212, 206, 206, 0.205);
+}
